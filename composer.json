@@ -1,5 +1,5 @@
 {
-    "name": "instaclick/base-mail-bundle",
+    "name": "holzweg/base-mail-bundle",
     "description": "This Bundle provides mail support for Symfony2 applications",
     "keywords": ["mail", "mail bouncer"],
     "type": "symfony-bundle",
@@ -16,11 +16,7 @@
         "symfony/framework-bundle": ">=2.1,<2.4",
         "symfony/swiftmailer-bundle": ">=2.1,<2.4",
         "symfony/finder": ">=2.1,<2.4",
-        "instaclick/bounce-mail-handler": "dev-master"
-    },
-    "require-dev": {
-        "instaclick/base-test-bundle": "dev-master",
-        "phpunit/PHPUnit": "3.7.*"
+        "holzweg/bounce-mail-handler": "dev-master"
     },
     "autoload": {
         "psr-0": { "IC\\Bundle\\Base\\MailBundle": "" }
